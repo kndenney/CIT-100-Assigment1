@@ -1,12 +1,34 @@
-﻿using System;
+using System;
 
-namespace CIT_100_Assigment1
+public class Jedi
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+	public static void Main()
+	{
+	    string Name;
+	        Name = "Obi Wan";
+	    
+	    
+	    
+	    
+
+	        Console.WriteLine("I am going to slice you hahaahah");
+	    Slice(Name);
+	    
+	    
+	    
+	    
+
+        //Change the name of the Jedi and slice the enemy
+	    Name = "Luke Skywalker";
+	        Slice(Name);
+	}
+	
+	
+	
+	
+	
+	
+	public static void Slice(string Name) {
+	    Console.WriteLine("You have been sliced by " + Name);
+	}
 }
